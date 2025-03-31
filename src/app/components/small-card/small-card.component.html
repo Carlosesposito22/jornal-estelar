@@ -1,13 +1,10 @@
 <div class="container__small-card">
     <div class="container__small-card-content">
         <div class="small-card__photo">
-            <img 
-            src="https://nexo-uploads-beta.s3.amazonaws.com/wp-content/uploads/images/2023/12/27220143/Satellite20Map2015-06-20182019-16-42_binary_120424.png" 
-            alt="" 
-            >
+            <img [src]="photoCover">
         </div>
         <div class="small-card__title">
-            <h1><a href="#">Satélites movidos a metal sólido podem usar lixo espacial como combustível?</a></h1>
+            <h1><a href="#">{{ cardTitle }}</a></h1>
         </div>
     </div>
     <div class="container__small-card-separator">

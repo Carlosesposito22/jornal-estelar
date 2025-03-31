@@ -1,21 +1,11 @@
 <div class="container__big-card">
     <div class="big-card__photo">
-        <img 
-        src="https://jornal.usp.br/wp-content/uploads/2022/05/20220509_lixo_espacial-300x158.jpg" 
-        alt="" 
-        height="200px"
-        >
+        <img [src]="photoCover" height="200px">
     </div>
     <div class="big-card__title">
-        <h1><a href="#">Satélites movidos a metal sólido podem usar lixo espacial como combustível?</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__text">
-        <a href="#">
-            <p>
-                O espaço está ficando lotado! Os humanos já colocaram mais de 20 mil satélites
-                em órbita desde o início da era espacial,
-                e há planos para lançar milhares de outros nos próximos anos.
-            </p>
-        </a>
+        <a href="#"><p>{{ cardDescrition }}</p></a>
     </div>
 </div>

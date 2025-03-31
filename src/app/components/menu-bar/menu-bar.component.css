@@ -1,9 +1,24 @@
 .container__menu-bar > ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 10px;
 }
 
 .container__menu-bar > ul > li {
     margin-right: 20px;
-    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.container__menu-bar > ul > li > a {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s;
+}
+
+.container__menu-bar > ul > li > a:hover {
+    color: #0073b1;
 }
